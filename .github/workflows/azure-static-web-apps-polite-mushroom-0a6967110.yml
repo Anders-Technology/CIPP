@@ -14,10 +14,8 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-<<<<<<< HEAD
-=======
           lfs: false
->>>>>>> 4c293b72cbb1129caf6fd2d07951d41ef051cf86
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
